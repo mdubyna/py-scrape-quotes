@@ -15,8 +15,6 @@ class Quote:
 
 
 BASE_URL = "https://quotes.toscrape.com/"
-AUTHOR_BIO_URL = BASE_URL + "author/"
-authors = {}
 
 logging.basicConfig(
     level=logging.INFO,
